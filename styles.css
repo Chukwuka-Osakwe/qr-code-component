@@ -9,13 +9,6 @@ html, body{
   align-items: center;
 }
 
-/*Here come the media queries*/
-@media all and (max-width: 800px){
-  body{
-    background-color: lightsalmon;
-  }
-}
-
 /* note to self: there seems to be some subtle box shadow around the main container*/
 .main-container{
   background-color: white;
@@ -49,6 +42,11 @@ html, body{
   text-align: center;
 }
 
+.body-text-container > p:first-child > span{
+  display: block;
+  text-align: center;
+}
+
 .body-text-container > p:last-child{
   font-size: 15px;
   font-weight: 400;
@@ -56,11 +54,21 @@ html, body{
   margin-top: -5px;
 }
 
+.body-text-container > p:last-child > span{
+  display: block;
+}
+
 .attribution { 
   font-size: 15px; 
   text-align: center; 
 }  
 
-.attribution > a { 
+.attribution > p > a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media (max-width: 800px){
+  .attribution > P{
+    width: 200px;
+  }
 }
