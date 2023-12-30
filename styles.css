@@ -10,9 +10,9 @@ html, body{
 }
 
 /*Here come the media queries*/
-@media all and (max-width: 500px){
+@media all and (max-width: 800px){
   body{
-    background-color: red;
+    background-color: lightsalmon;
   }
 }
 
