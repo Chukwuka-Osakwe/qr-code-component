@@ -1,0 +1,66 @@
+html, body{
+  background-color: hsl(212, 45%, 89%);
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+/*Here come the media queries*/
+@media all and (max-width: 500px){
+  body{
+    background-color: red;
+  }
+}
+
+/* note to self: there seems to be some subtle box shadow around the main container*/
+.main-container{
+  background-color: white;
+  width: 260px;
+  border-radius: 15px;
+}
+
+.image-and-body-container{
+  width: 225px;
+  height: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.qr-code-image{
+  width: 100%;
+  border-radius: 10px;
+}
+
+.body-text-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-text-container > p:first-child{
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.body-text-container > p:last-child{
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.attribution { 
+  font-size: 15px; 
+  text-align: center; 
+}  
+
+.attribution > a { 
+  color: hsl(228, 45%, 44%); 
+}
