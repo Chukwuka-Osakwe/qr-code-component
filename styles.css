@@ -64,11 +64,11 @@ html, body{
 }  
 
 .attribution > p > a { 
-  color: hsl(228, 45%, 44%); 
+  color: hsl(228, 45%, 44%);
 }
 
 @media (max-width: 800px){
-  .attribution > P{
-    width: 200px;
+  .attribution > P > span{
+    display: block;
   }
 }
