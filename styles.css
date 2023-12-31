@@ -16,6 +16,12 @@ html, body{
   border-radius: 15px;
 }
 
+@media (max-width: 400px){
+  .main-container{
+    width: 300px;
+  }
+}
+
 .image-and-body-container{
   width: 225px;
   height: 70%;
