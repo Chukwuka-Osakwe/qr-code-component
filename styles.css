@@ -1,5 +1,6 @@
 html, body{
   background-color: hsl(212, 45%, 89%);
+  font-family: 'Outfit', sans-serif;
   height: 100%;
   margin: 0;
   display: flex;
@@ -12,12 +13,12 @@ html, body{
 /* note to self: there seems to be some subtle box shadow around the main container*/
 .main-container{
   background-color: white;
-  width: 260px;
+  width: 285px;
   border-radius: 15px;
 }
 
 .image-and-body-container{
-  width: 225px;
+  width: 250px;
   height: 70%;
   margin-left: auto;
   margin-right: auto;
