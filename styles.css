@@ -13,16 +13,16 @@ html, body{
 /* note to self: there seems to be some subtle box shadow around the main container*/
 .main-container{
   background-color: white;
-  width: 285px;
+  width: 266px;
   border-radius: 15px;
 }
 
 .image-and-body-container{
-  width: 250px;
+  width: 242px;
   height: 70%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15px;
+  margin-top: 12px;
 }
 
 @media (max-width: 800px){
@@ -31,7 +31,7 @@ html, body{
   }
 
   .image-and-body-container{
-    width: 275px;
+    width: 276px;
   }
 }
 
