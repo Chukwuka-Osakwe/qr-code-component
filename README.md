@@ -17,13 +17,13 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Overview
 
-### Screenshot
+### Screenshots
 
 ![desktop screenshot](images/qr-component-desktop-screenshot.png)
 
-<div style="display:flex; justify-content: center; align-items: center;">
-  ![mobile screenshot](images/qr-component-mobile-screenshot.jpg)
-</div>
+<p align="center">
+  <img src="images/qr-component-mobile-screenshot.jpg"/>
+</p>
 
 ### Links
 
