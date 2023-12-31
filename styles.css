@@ -16,18 +16,22 @@ html, body{
   border-radius: 15px;
 }
 
-@media (max-width: 400px){
-  .main-container{
-    width: 300px;
-  }
-}
-
 .image-and-body-container{
   width: 225px;
   height: 70%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 15px;
+}
+
+@media (max-width: 800px){
+  .main-container{
+    width: 300px;
+  }
+
+  .image-and-body-container{
+    width: 275px;
+  }
 }
 
 .qr-code-image{
